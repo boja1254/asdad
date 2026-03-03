@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Service</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+
+<div class="form-container">
+<h2>Book Your Service</h2>
+
+<form id="serviceForm">
+<input type="text" id="name" placeholder="Full Name" required>
+<input type="tel" id="mobile" placeholder="Mobile Number" required>
+
+<select id="service" required>
+<option value="">Select Service</option>
+<option>Online Form Fill-up</option>
+<option>Aadhaar / PAN Help</option>
+<option>Ticket Booking</option>
+<option>Passport Form</option>
+<option>Resume / Job Apply</option>
+</select>
+
+<select id="slot" required>
+<option value="">Select Time Slot</option>
+<option>10 AM – 12 PM</option>
+<option>12 PM – 2 PM</option>
+<option>2 PM – 4 PM</option>
+<option>4 PM – 6 PM</option>
+</select>
+
+<div class="price-box">Service Charge: ₹50</div>
+
+<button type="submit" class="primary-btn">Pay ₹50</button>
+</form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

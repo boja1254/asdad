@@ -1,0 +1,11 @@
+
+body{margin:0;font-family:Segoe UI;background:#f4f6f9;}
+.navbar{display:flex;justify-content:space-between;padding:15px 40px;background:#1e3c72;color:white;}
+.logo{font-weight:bold;}
+.nav-btn{background:white;color:#1e3c72;padding:8px 15px;border-radius:6px;text-decoration:none;}
+.hero{text-align:center;padding:80px 20px;background:linear-gradient(135deg,#1e3c72,#2a5298);color:white;}
+.primary-btn{display:inline-block;margin-top:20px;padding:12px 20px;background:#ff9800;color:white;border-radius:6px;text-decoration:none;border:none;cursor:pointer;}
+.form-container{max-width:400px;margin:80px auto;background:white;padding:30px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,0.15);}
+input,select{width:100%;padding:12px;margin:10px 0;border-radius:6px;border:1px solid #ccc;}
+.price-box{background:#f1f1f1;padding:10px;border-radius:6px;text-align:center;font-weight:bold;margin:10px 0;}
+.info{text-align:center;padding:40px;}
