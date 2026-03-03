@@ -4,7 +4,7 @@ const razorpay = require("../config/razorpay");
 
 exports.createOrder = async (req, res) => {
   try {
-    const amount = 5000;
+    const amount = 50;
 
     const order = await razorpay.orders.create({
       amount: amount,
