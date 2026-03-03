@@ -26,7 +26,7 @@ const result=await verify.json();
 
 if(result.success){
 let msg=`Hello, I paid ₹50 for ${service}. Name: ${name}, Slot: ${slot}`;
-window.location.href="https://wa.me/91YOURNUMBER?text="+encodeURIComponent(msg);
+window.location.href="https://wa.me/918409019510?text="+encodeURIComponent(msg);
 }else{
 alert("Payment verification failed");
 }
